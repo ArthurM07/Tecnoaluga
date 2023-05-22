@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    
     <title>Tecno Aluga</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Produtos</a>
-                    <a href="#">Duvidas frequentes</a>
-                    <a href="#">Criar conta</a>
-                    <a href="#">Fazer login</a>
+                    <a href="#">| Produtos |</a>
+                    <a href="#">| Duvidas frequentes |</a>
+                    <a href="#">| Criar conta |</a>
+                    <a href="#">| Fazer login |</a>
                 </li>
             </ul>
         </nav>
@@ -28,7 +29,7 @@
     <main>
         <!-- banner atrativo como primeira imagem do site -->
         <section class="banner">
-            <img src="#" alt="banner">
+            <a href="#"> <img src="Imagens/banner-post-locacao-equipamentos.jpg"  alt="banner"></a>
         </section>
 
         <!-- mensagem que leva ao cliente para a pagina de assinatura -->
@@ -36,7 +37,7 @@
             <h3>Assine seu aparelho de última geração <br> de um jeito fácil, barato e seguro.</h3>
             <ul>
                 <li>
-                    <a href="#">Quero assinar &rarr;</a>
+                 <a href="#" class="button-red">Quero assinar &rarr;</a>
                 </li>
             </ul>
         </section>
@@ -44,10 +45,12 @@
         <!-- tabela que mostra o porque assinar ao inves de comprar -->
         <section class="table"> <!-- tabela-->
             <h4>
-                Você pode estar se perguntando: <br> por que assinar e não comprar?
+                Você pode estar se perguntando: <br> Por que assinar e não comprar?
             </h4>
             <p>Não se trata apenas de escolher um novo aparelho, <br> se trata da agilidade para voce, Sem dores de cabeça com a revenda, <br> assistencia tecnica e pagando menos, quer ver?</p>
             <!-- tabela que representa o PC em uma loja -->
+            <div class="price-table-container">
+            <div class="price-table">
             <table border="1" class="table table-store"> <!-- tabela tabela-loja -->
                 <tr>
                     <td>comprando em uma loja</td>
@@ -80,8 +83,10 @@
                     <td>Total: R$ 5.820,61*</td>
                 </tr>
             </table>
-
+            
+            </div>
             <!-- tabela que representa o serviço de assinatura -->
+            <div class="price-table">
             <table border="1" class="table table-rent"> <!-- tabela tabela-aluguel -->
                 <tr>
                     <td>Assinando conosco por 1 ano</td>
@@ -117,6 +122,8 @@
             </table>
             <p>*Preço médio</p>
         </section>
+        </div>
+    </div>
 
         <!-- serviços oferecidos -->
         <section class="products"> <!-- produtos-->
@@ -127,21 +134,21 @@
             <article>
                 <p>Windows</p>
                 <h4>Computador</h4>
-                <img src="#" alt="imagem do computador">
+                <img src="Imagens/br-11134201-22120-51plari5qmlvb0.jfif" alt="imagem do computador">
                 <a href="#">Quero esse aparelho</a>
             </article>
 
             <article>
                 <p>Console</p>
                 <h4>PS4</h4>
-                <img src="#" alt="imagem do PS4">
+                <img src="Imagens/1xg.jpeg" alt="imagem do PS4">
                 <a href="#">Quero esse console</a>
             </article>
 
             <article>
                 <p>Apple</p>
                 <h4>Iphone 13</h4>
-                <img src="#" alt="imagem do Iphone 13">
+                <img src="Imagens/cdc-iphone-13-pro-max-grafite-camera-tripla-v1.jpg" alt="imagem do Iphone 13">
                 <a href="#">Quero esse Iphone</a>
             </article>
         </section>
@@ -151,9 +158,11 @@
             <p>É bem simples! se liga nesse passo a passo</p>
             <!-- imagem na esquerda -->
             <article class="left">
+                <div class="pc">
                 <nav>
-                    <img src="#" alt="imagem de PC">
+                    <img src="Imagens/oxi-PhotoRoom.png-PhotoRoom.png" alt="imagem-de-PC">
                 </nav>
+                </div>
             </article>
             <!-- passos na parte da direita -->
             <article class="right">
@@ -186,9 +195,17 @@
 
     <!-- rodapé da página -->
     <footer>
-        
+        <h3>Contato:</h3>
+        <ul>
+            <li>
+                <p>「Telefone:<a href="#"> (27) 3371-4916 」</a></p>
+                <p>「 Whatsapp:<a href="#"> (27) 99726-9610 」</a></p>
+               <p>「 E-mail:<a href="#"> contato@tecnoaluga.com 」</a>
+                <p>「 Endereço:<a href="#"> Av. Principal, 123 - ES 」</a></p>
+            </li>
+        </ul>
     </footer>
 
-    
+    <script  src="js/index.js"></script>
 </body>
 </html>
